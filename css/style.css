@@ -42,5 +42,37 @@
     line-height: 15px;
     text-align: center;
     letter-spacing: -0.04em;
-    margin: 0 0 50px;
+    margin: 0 0 30px;
+}
+.landing2-list ol{
+    counter-reset: li;
+    list-style: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.landing2-list li {
+    position: relative;   
+    padding: 16px 40px;
+    display: flex;
+}
+.landing2-list li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: #90B27A;
+    border-radius: 50%;
+    position: absolute;      
+    left: 8px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
