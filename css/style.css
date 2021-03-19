@@ -1,114 +1,67 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-
-.calender{
-    font-family: 'Quicksand', sans-serif;
-    margin: 0px;
+.questions-header{
+    width: 375.81px;
+    height: 50px;
+    margin: 40px 0;
+    border-radius: 2px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.calender-header{
-    margin:20px 10% 20px 4%;
+.questions-header ol{
+    counter-reset: li;
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.questions-header li {
+    position: relative;   
+    padding: 14px 42px;
+    display: flex;
+    align-items: center;
+}
+.questions-header li:last-child{
+    color: rgba(0, 0, 0, 0.38);
+}
+.questions-header li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: #90B27A;
+    border-radius: 50%;
+    position: absolute;      
+    left: 8px;
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.calender-img{
-    position: relative;
-    width: 200px;
-    height:180px;
-    margin:15px 10% 10px 4%;
-    
+.questions-header li:last-child::before{
+    background-color: rgba(0, 0, 0, 0.38);
 }
-
-.calender-time{
+.questions-header li:first-child span{
     position: absolute;
-    font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    top: 44%;
-    left: 40%;
-    background-color:#90B27A ;
-    border-radius: 50%;
-    padding-top: 4px;
-    padding-left: 4px;
-    width: 15px;
-    height: 14px;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 72px;
 }
-
-.calender-time2{
+.questions-header li:nth-child(2) span{
     position: absolute;
-    font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 30%;
-    left: 30%;
-    background-color: #cdd5db; 
-    color: rgba(0, 0, 0, 0.452); 
-    border-radius: 50%;
-    padding-top: 4px;
-    padding-left: 6px;
-    width: 12px;
-    height: 14px;
-}
-
-.calender-time3{
-    position: absolute;
-    font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 30%;
-    left: 14%;
-    background-color: #cdd5db; 
-    color: rgba(0, 0, 0, 0.452); 
-    border-radius: 50%;
-    padding-top: 4px;
-    padding-left: 6px;
-    width: 12px;
-    height: 14px;
-}
-
-.calender-button{
-    width: 200px;
-    height: 150px;
-    text-align:center;
-
-}
-
-.calender-button input {
-    width: 50px;
-    height: 25px;
-    margin :4px;
-    font-size: 11px;
-    border-radius: 7px;
-    border-color:white ;
-    border:none;
-    outline: none;
-
-}
-
-#ten {
-    background-color: #c4d0d9c5;
-    color: rgba(0, 0, 0, 0.575);
-}
-
-#twelve {
-    background-color: #90B27A;
-    color: white;
-}
-
-#two {
-    background-color: #c4d0d948;
-    color: rgba(0, 0, 0, 0.3);
-}
-
-#four {
-    background-color: #c4d0d9c5; 
-    color: rgba(0, 0, 0, 0.575);   
-}
-
-#book {
-    background-color: #90B27A;
-    color: white;
-    border-radius: 4px;
-    width: 70px;
-    font-size: 14px;
-    cursor: pointer;
-}
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 104px;
+}   
