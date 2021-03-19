@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.calender{
+    width: 375px;
+    height: 667px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+.calender-header{
+    margin:45px 10% 20px 10%;
+    font-weight: normal;
+}
+.calender-img{
+    position: relative;
+    width: 70%;
+    height:260px;
+    margin:15px 10% 50px 10%;
+    
+}
+
+.calender-time{
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 50%;
+    left: 51%;
+    background-color:#90B27A ;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 7.5px;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+
+}
+
+.calender-time2{
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 34%;
+    left: 52%;
+    background-color: #cdd5db; 
+    color: rgba(0, 0, 0, 0.452); 
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 10px;
+    width: 21px;
+    height: 21px;
+}
+
+.calender-time3{
+    position: absolute;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 34%;
+    left: 35%;
+    background-color: #cdd5db; 
+    color: rgba(0, 0, 0, 0.452); 
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 10px;
+    width: 21px;
+    height: 21px;
+}
+
+.calender-button{
+    width: 60%;
+    height: 180px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:center;
+
+}
+
+.calender-button input {
+    width: 70px;
+    height: 40px;
+    margin :10px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-color:white ;
+    border:none;
+    outline: none;
+
+}
+
+#ten {
+    background-color: #c4d0d9c5;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#twelve {
+    background-color: #90B27A;
+    color: white;
+}
+
+#two {
+    background-color: #c4d0d948;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#four {
+    background-color: #c4d0d9c5; 
+    color: rgba(0, 0, 0, 0.575);   
+}
+
+#book {
+    background-color: #90B27A;
+    color: white;
+    border-radius: 4px;
+    width: 106px;
+    font-size: 19px;
+    cursor: pointer;
+}
