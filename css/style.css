@@ -37,7 +37,7 @@
     background-color: #90B27A;
     border-radius: 50%;
     position: absolute;      
-    left: 8px;
+    left: 13px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -55,13 +55,13 @@
     position: absolute;
     width: 38px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    left: 70px;
+    left: 72px;
 }
 .questions-header li:nth-child(2) span{
     position: absolute;
     width: 38px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    left: 107px;
+    left: 111px;
 }   
 .questions-title{
     width: 286px;
@@ -81,18 +81,10 @@
     font-size: 14px;
     margin: 0 28px 30px;
 }
-.questions-container option:first-child:after{
-    font-size: 279px;
-    position: absolute;
-    width: 38px;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-    left: 70px;
-}
-       
 .questions-container option {
     width: 230px;
-    height: 48px;
-    margin-left: 20px;
+    height: 40px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -106,6 +98,11 @@
     margin: 20px 0 0 6px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.questions-container option:first-child{
+    display:inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 5.25);
 }
 .questions-buttons{
     display: flex;
@@ -116,22 +113,23 @@
     width: 66px;
     height: 36px;
     border: 2px solid #90B27B;
+    background-color: #FFFFFF; 
     border-radius: 4px;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.16px;
-    background-color: #FFFFFF; 
+    
 }
 #next-button{
     width: 66px;
     height: 36px;
     background-color: #90B27B;
-    border: 1px solid #90B27B;
+    border: 2px solid #90B27B;
     border-radius: 4px;
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
