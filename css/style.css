@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* landing2 start */
 .landing2-container{
     Width:375px;
     Height:667px;
@@ -27,7 +29,7 @@
 .landing2-paragraph1{
     width: 285px;
     height: 70px;
-    font-family:Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight:bold;
     font-size:24px;
@@ -41,7 +43,7 @@
 .landing2-paragraph2{
     width: 270px;
     height: 45px;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -73,7 +75,7 @@
     border-radius: 50%;
     position: absolute;      
     left: 8px;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -96,7 +98,7 @@
     background-color:#90B27A;
     border:#90B27A;
     border-radius:4px;
-    font-family:Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style:normal;
     font-weight:normal;
     color: #FFFEFE;
@@ -106,3 +108,4 @@
     letter-spacing: -0.04em;
     margin: 45px 0 0 0;
 }
+/* landing 2 end */
