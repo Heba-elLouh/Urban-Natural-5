@@ -122,6 +122,51 @@
     font-size: 19px;
     cursor: pointer;
 }
+.main-Start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    width: 375px;
+}
+.logo-img{
+    height: 139px;
+    width: 161px;
+    margin: 96px 107px 15px 107px; 
+
+}
+
+.header-Start{
+    width: 307px;
+    height: 53px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1px 43px 31px 39px;
+    font-size: 46px;
+    text-align: center;
+}
+.p-Start{
+    width: 329px;
+    height: 58px;
+    font-weight: 300;
+    font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0px 3px 0px 29px;
+
+
+}
+.buttonStart {
+    width: 260px;
+    height: 54px;
+    background-color: #90B27B;
+    margin: 73px 46px 11px 69px;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+  }
 
 /* the style for calender page end */
 
