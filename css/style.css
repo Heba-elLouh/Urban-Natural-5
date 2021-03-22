@@ -31,6 +31,7 @@
     font-weight: 300;
     font-size: 23px;
     font-family: 'Quicksand', sans-serif;
+    font-style: normal;
     text-align: center;
     margin: 0px 3px 0px 29px;
 }
@@ -221,7 +222,7 @@
     position: absolute;
     width: 38px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    left: 105px;
+    left: 112px;
 }
 
 /* page form */
@@ -362,7 +363,7 @@
     font-size: 14px;
     margin: 0 28px 30px;
 }
-.questions-container option {
+.questions-container option{
     width: 230px;
     height: 40px;
     padding-left: 20px;
@@ -375,15 +376,29 @@
     letter-spacing: 0.16px;
     color: #333333;
 }
-.questions-container select{
+.questions-container select {
     margin: 20px 0 0 6px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
 .questions-container option:first-child{
     display:inline-flex;
     border-bottom: 1px solid rgba(0, 0, 0, 5.25);
+}
+.questions-container form{
+    width: 230px;
+    margin: 20px 0 0 6px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    color: #333333;
+}
+.questions-container input{
+    margin: 12px 20px 0;
 }
 .questions-buttons{
     display: flex;
@@ -445,41 +460,41 @@
 }
 .calender-time{
     position: absolute;
-    font-size: 11px;
+    font-size: 13px;
     color: white;
-    top: 57%;
+    top: 58%;
     left: 49%;
     background-color:#90B27A ;
     border-radius: 50%;
-    padding-top: 7px;
-    padding-left: 7.5px;
+    padding-top: 3px;
+    padding-left: 5.5px;
     width: 20px;
     height: 20px;
     display: inline-block;
 }
 .calender-time2{
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     top: 39%;
     left: 49%;
     background-color: #cdd5db; 
-    color: rgba(0, 0, 0, 0.452); 
+    color: rgba(0, 0, 0, 0.548); 
     border-radius: 50%;
-    padding-top: 8px;
-    padding-left: 9px;
+    padding-top: 2px;
+    padding-left: 5.5px;
     width: 20px;
     height: 20px;
 }
 .calender-time3{
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     top: 39%;
     left: 34%;
     background-color: #cdd5db; 
-    color: rgba(0, 0, 0, 0.452); 
+    color: rgba(0, 0, 0, 0.548); 
     border-radius: 50%;
-    padding-top: 8px;
-    padding-left: 9px;
+    padding-top: 3px;
+    padding-left: 7px;
     width: 20px;
     height: 20px;
 }
@@ -602,6 +617,10 @@ margin-bottom: 15px;
     font-family: 'Quicksand';
     font-size: 14px;
 }
+.book-question a{
+    color: #333333;
+
+}
 .self-dec{
     margin-left: 23px; 
     margin-top: 18.2px; 
@@ -609,8 +628,9 @@ margin-bottom: 15px;
 .radio-yes-no{
     margin-left: 30px;  
     margin-top: 24px;
-    font-family: 'Quicksand';
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 .book-buttons{
