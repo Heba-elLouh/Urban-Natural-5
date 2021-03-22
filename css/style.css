@@ -620,3 +620,161 @@ margin-bottom: 15px;
     font-size: 15px;
     margin-top: 22px;
 }
+
+
+
+
+/* Successful */
+
+.Like img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 93px;
+    left: 155px;
+ 
+ }
+ 
+
+ .boxP{
+ position: absolute;
+ width: 291px;
+ height: 109px;
+ left: 45px;
+ top: 176px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ }
+ 
+ .boxP p:first-child{
+ 
+ text-align: center;
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 24px;
+ text-align: center;
+ color: #000000;
+ margin-bottom: 15px;
+ }
+
+
+ .boxP p:last-child{
+    text-align: center;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000
+ }
+
+
+
+
+ 
+ 
+ 
+ .Title h2{
+ position: absolute;
+ width: 275px;
+ height: 51px;
+ left: 47px;
+ top: 323px;
+ font-family: "Quicksand";
+ font-style:normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 30px;
+ display: flex;
+ align-items: center;
+ color: #000000;
+
+ }
+ 
+ 
+ .timeMachin p{
+     position: absolute;
+ width: 239px;
+ height: 24px;
+ left: 141px;
+ top: 383px;
+ 
+ font-family: Quicksand;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+ display: flex;
+ align-items: center;
+ 
+ color: #000000;
+ }
+ 
+ 
+ .Map p {
+ position: absolute;
+ width: 218px;
+ height: 33px;
+ left: 98px;
+ top: 418px;
+ 
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 16px;
+ /* or 114% */
+ 
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.4px;
+ 
+ color: #000000;
+ }
+ 
+ 
+ .calendar p {
+     position: absolute;
+ width: 275px;
+ height: 38px;
+ left: 93px;
+ top: 449px;
+ 
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 20px;
+ display: flex;
+ align-items: center;
+ 
+ color: #000000;
+ }
+
+
+ .calendar i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 58px;
+    top: 464px;
+ }
+
+ .timeMachin i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 106px;
+    top: 387px;
+ }
+
+ .Map i{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 63px;
+top: 425px;
+
+ }
