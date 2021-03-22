@@ -4,7 +4,7 @@
 1. Raghad Abdulfattah Mezied.
 2. Alaa Ahmed.
 3. Heba elLouh.
-4. Ahd.
+4. Ahd Suhail Alhashim.
 
 ## Purposes for Our Project:
 Shopping for furniture has never been safer.
